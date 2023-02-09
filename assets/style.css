@@ -26,6 +26,7 @@ body {
   color: #fff;
 }
 
+
 .container .header-hero {
   margin-top: 200px;
 }
@@ -260,6 +261,15 @@ ul {
   font-size: 20px;
 }
 
+.footer-links-item:hover{
+  border-bottom: 2px solid #fff;
+  transition: all  0.3s ease;
+  -webkit-transition: all  0.3s ease;
+  -moz-transition: all  0.3s ease;
+  -ms-transition: all  0.3s ease;
+  -o-transition: all  0.3s ease;
+}
+
 .footer-distributed .footer-links-item a {
   display: inline-block;
   line-height: 1.8;
@@ -292,14 +302,11 @@ ul {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
   border-radius: 2px;
-
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }
